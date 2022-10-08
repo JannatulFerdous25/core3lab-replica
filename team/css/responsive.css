@@ -1,0 +1,131 @@
+/*responsive section*/
+
+@media only screen and (max-width: 980px){
+    .slider-content h1{
+        font-size: 40px;
+    }
+    .slider-content p{
+        font-size: 17px;
+    }
+    .feature .ext{
+       padding-bottom: 0;
+    }
+    .circle{
+        width:130px;
+        height: 130px;
+    }
+    .quality{
+        height: 80vh;
+    }
+    .men img{
+        bottom: -190px;
+    left: -140px;
+    }
+    .men2 img{
+        display: none;
+    }
+    .footer-card{
+        width: 555px;
+        height: 485px;
+        display: block;
+        margin: auto;
+    }
+    
+    .footer-card img{
+        width: 50%;
+    }
+    .one .foot-info {
+        margin-top: 400px;
+    }
+    .two .foot-info{
+        margin-top: 20px;
+    }
+    #red-btn{
+        left: 38%;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    header{
+        height: 90px;
+      margin: auto;
+    }
+    .slide-img{
+        width: 50%;
+    }
+    .slide1,
+.slide2,
+.slide3{
+    height:150vh;
+}
+.circle{
+    width:230px;
+    height: 230px;
+    display: block;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sub-head{
+    margin-bottom: 30px;
+}
+.work-sec .row{
+    padding-bottom: 20px;
+   
+}
+.circle2,
+.circle4{
+    position: relative;
+    top:0;
+    left: 0;
+}
+.slide2-img{
+    margin-bottom: 30px;
+}
+.service-sec{
+    margin-bottom: 0px;
+}
+.service-content h3{
+    margin-bottom: 50px;
+}
+
+.foot-info{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.foot-ico{
+    text-align: center;
+    margin: 0 auto;
+}
+.foot-info i{
+    position: absolute;
+    left: 140px;
+}
+.foot h4{
+    text-align: center;
+}
+.foot .dash {
+    left: 50%;
+}
+.foot-right{
+    text-align: left;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
